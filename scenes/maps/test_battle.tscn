@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://fwphvh6l41c1"]
+
+[ext_resource type="Script" uid="uid://crdv3c0dno6bx" path="res://scenes/maps/test_battle.gd" id="1_1i6k3"]
+[ext_resource type="PackedScene" uid="uid://d2472t1moby81" path="res://scenes/units/unit.tscn" id="2_asejr"]
+[ext_resource type="Resource" uid="uid://ci8cjba7cgrce" path="res://resources/units/human.tres" id="3_utssp"]
+
+[node name="TestBattle" type="Node2D" unique_id=152944469]
+script = ExtResource("1_1i6k3")
+unit_scene = ExtResource("2_asejr")
+unit_data = ExtResource("3_utssp")

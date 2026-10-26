@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="AttackData" format=3 uid="uid://npngwgbxouj"]
+
+[ext_resource type="Script" uid="uid://c662upts15tc" path="res://scripts/resources/AttackData.gd" id="1_5ck02"]
+[ext_resource type="Resource" uid="uid://c2q1dk7mwqkt" path="res://resources/hits/human_slash_hit.tres" id="1_dr3hp"]
+[ext_resource type="PackedScene" uid="uid://dw7f137mtw7d1" path="res://scenes/combat/slash.tscn" id="2_g62t5"]
+
+[resource]
+script = ExtResource("1_5ck02")
+recovery = 0.25
+cooldown = 1.0
+hit_scene = ExtResource("2_g62t5")
+hit = ExtResource("1_dr3hp")
+metadata/_custom_type_script = "uid://c662upts15tc"

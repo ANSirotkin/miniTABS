@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="UnitData" format=3 uid="uid://ci8cjba7cgrce"]
+
+[ext_resource type="Script" uid="uid://3sl40c2mlgn8" path="res://scripts/resources/UnitData.gd" id="1_ngi8q"]
+[ext_resource type="Resource" uid="uid://npngwgbxouj" path="res://resources/attacks/human_slash.tres" id="1_r5gqq"]
+[ext_resource type="SpriteFrames" uid="uid://bb3ay1arrr0hc" path="res://resources/sprite_frames/human_frames.tres" id="3_d5wt4"]
+
+[resource]
+script = ExtResource("1_ngi8q")
+display_name = "Human"
+max_health = 60
+move_speed = 30.0
+cost = 50
+attack = ExtResource("1_r5gqq")
+max_poise = 40
+downed_time = 0.5
+sprite_frames = ExtResource("3_d5wt4")
+metadata/_custom_type_script = "uid://3sl40c2mlgn8"

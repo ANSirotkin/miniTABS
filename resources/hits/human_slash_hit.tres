@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="HitData" format=3 uid="uid://c2q1dk7mwqkt"]
+
+[ext_resource type="Script" uid="uid://xkvcayqwr8ij" path="res://scripts/resources/HitData.gd" id="1_wesud"]
+
+[resource]
+script = ExtResource("1_wesud")
+knockback_force = 50.0
+poise_damage = 10.0
+throw_force = 50.0
+destroyed_by_walls = false
+metadata/_custom_type_script = "uid://xkvcayqwr8ij"

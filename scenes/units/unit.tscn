@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://d2472t1moby81"]
+
+[ext_resource type="Script" uid="uid://b007rs23f5rbj" path="res://scenes/units/unit.gd" id="1_qgilm"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_rgtca"]
+radius = 3.0
+
+[node name="Unit" type="CharacterBody2D" unique_id=1201809613]
+collision_layer = 2
+motion_mode = 1
+script = ExtResource("1_qgilm")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1243362542]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=223451038]
+shape = SubResource("CircleShape2D_rgtca")
